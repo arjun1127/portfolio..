@@ -1,5 +1,5 @@
 import ProjectCard from './ProjectCard';
-import { FaServer, FaBrain, FaLanguage, FaHospitalSymbol } from 'react-icons/fa';
+import { FaServer, FaBrain, FaLanguage, FaHospitalSymbol, FaShoppingCart, FaCloud } from 'react-icons/fa';
 import { SiPostgresql } from 'react-icons/si';
 
 const projectData = [
@@ -38,6 +38,27 @@ const projectData = [
     color: '#f59e0b',
     logo: <FaHospitalSymbol />,
   },
+  {
+    title:'Bsic Load balancer similar to AWS ALB module',
+    description: 'A simple load balancer using Node.js from scratch with a interactive dashboard to show CPU useage. ',
+    link: 'https://github.com/arjun1127/Load-balancer-js',
+    color: '#f1c40f',
+    logo: <FaServer />,
+  },
+  {
+    title:'Fun Frontend Ecommerce layout with Advanced UI/UX',
+    description: 'A simple ecommerce layout using React.js and three.js and exploring various tailwind CSS properties',
+    link:'https://github.com/arjun1127/FutureMart',
+    color: '#f7dc6f',
+    logo: <FaShoppingCart />,
+  },
+  {
+    title:'Generative Adversarial Network (GAN) for generating weather images',
+    description: 'A simple GAN model using PyTorch to generate images of weather with different weather conditions',
+    link:'https://github.com/arjun1127/GAN_weather_Application',
+    color: '#f7dc6f',
+    logo: <FaCloud />,
+  }
 ];
 
 const Projects: React.FC = () => {
