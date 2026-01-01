@@ -10,7 +10,6 @@ const Contact: React.FC = () => {
     >
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         
-        {/* LEFT — CONTACT CONTENT */}
         <div className="z-10">
           <motion.h2
             initial={{ opacity: 0, y: -20 }}
@@ -44,7 +43,6 @@ const Contact: React.FC = () => {
               p-6 sm:p-10
             "
           >
-            {/* Name */}
             <div className="mb-5">
               <label className="block text-sm text-zinc-300 mb-1">Name</label>
               <input
@@ -53,7 +51,6 @@ const Contact: React.FC = () => {
               />
             </div>
 
-            {/* Email */}
             <div className="mb-5">
               <label className="block text-sm text-zinc-300 mb-1">Email</label>
               <input
@@ -62,7 +59,6 @@ const Contact: React.FC = () => {
               />
             </div>
 
-            {/* Message */}
             <div className="mb-6">
               <label className="block text-sm text-zinc-300 mb-1">Message</label>
               <textarea
@@ -85,7 +81,6 @@ const Contact: React.FC = () => {
             </button>
           </motion.form>
 
-          {/* SOCIALS */}
           <div className="flex gap-6 mt-8 text-zinc-500 text-xl">
             <a href="mailto:arjunkrao2004@gmail.com" className="hover:text-zinc-800"><FaEnvelope /></a>
             <a href="https://github.com/arjun1127" target="_blank" className="hover:text-zinc-800"><FaGithub /></a>
@@ -93,7 +88,6 @@ const Contact: React.FC = () => {
           </div>
         </div>
 
-        {/* RIGHT — 3D MODEL */}
         <div className="relative h-[420px] lg:h-[520px] rounded-3xl overflow-hidden">
           <SplineContact url="https://prod.spline.design/p-KUDgQShUkmYoOO/scene.splinecode" />
         </div>

@@ -47,7 +47,7 @@ const About: React.FC = () => {
 
       ">
         <img
-          src="public/myPic.jpeg"  
+          src="./myPic.jpg" 
           alt="Arjun Rao"
           className="w-full h-full object-cover brightness-95 contrast-105"
       />
