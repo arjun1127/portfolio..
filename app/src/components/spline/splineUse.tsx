@@ -19,6 +19,7 @@ const SplineHero: React.FC<SplineHeroProps> = ({ url }) => {
   }, []);
 
   return (
+     // @ts-ignore
     <spline-viewer
       url={url}
       style={{

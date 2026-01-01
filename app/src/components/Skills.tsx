@@ -3,7 +3,6 @@ import {
   SiReact, SiNodedotjs, SiTailwindcss, SiTypescript, SiPostgresql,
   SiPython, SiC, SiJavascript, SiGit, SiLinux, SiNextdotjs,SiAmazon
 } from 'react-icons/si';
-import SplineSkills from "./spline/splineUse";
 const skills = [
   {
     title: 'Languages',
