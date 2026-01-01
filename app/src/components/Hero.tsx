@@ -1,6 +1,5 @@
 import SplineHero from "./spline/splineUse";
 import {  FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import resume from '../assets/myResume.pdf';
 
 const Hero: React.FC = () => {
   return (
@@ -63,8 +62,8 @@ const Hero: React.FC = () => {
   </a>
 
   <a
-    href={resume}
-    download='Arjun_Rao_Resume.pdf'
+    href='https://arjun1127.github.io/myResume.pdf'
+    download
     target="_blank"
     rel="noopener noreferrer"
     className="border-2 border-white text-white font-semibold
