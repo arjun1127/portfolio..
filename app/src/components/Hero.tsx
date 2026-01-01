@@ -1,5 +1,7 @@
 import SplineHero from "./spline/splineUse";
 import {  FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import resume from '../assets/myResume.pdf';
+
 const Hero: React.FC = () => {
   return (
     <section className="relative w-full min-h-screen bg-transparent overflow-hidden px-6 py-24">
@@ -61,7 +63,8 @@ const Hero: React.FC = () => {
   </a>
 
   <a
-    href="/myResume.pdf"
+    href={resume}
+    download='Arjun_Rao_Resume.pdf'
     target="_blank"
     rel="noopener noreferrer"
     className="border-2 border-white text-white font-semibold
