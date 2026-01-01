@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/arjun1127/ArjunWebSite",
+  "homepage": "https://arjun1127.github.io/ArjunWebSite",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
