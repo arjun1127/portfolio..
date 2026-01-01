@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import AnimatedCursor from 'react-animated-cursor';
 import Loader from './components/Loader';
+import SceneLayout from './layout/SceneLayout';
 
 const App: React.FC = () => {
   const [loading, setLoading] = useState(true);
@@ -32,28 +33,29 @@ const App: React.FC = () => {
         clickables={['a', 'button', '.link', '[role="button"]']}
       />
 
-      
-      <div className="bg-gray-950 text-white font-sans scroll-smooth">
-        <Navbar />
+          <SceneLayout>
+      <div className="text-white font-sans scroll-smooth h">
+          <Navbar />
         <main>
           <section id="hero">
             <Hero />
           </section>
-          <section id="about" className="py-20">
+          <section id="about" className="">
             <About />
           </section>
-          <section id="projects" className="py-20 bg-gray-900">
+          <section id="projects" className="">
             <Projects />
           </section>
-          <section id="skills" className="py-20">
+          <section id="skills" className="">
             <Skills />
           </section>
-          <section id="contact" className="py-20 bg-gray-900">
+          <section id="contact" className="">
             <Contact />
           </section>
         </main>
         <Footer />
       </div>
+          </SceneLayout>
     </>
   );
 };

@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-950 text-gray-300 border-t border-white/10 py-10 px-4">
+    <footer className="backdrop-blur-md border-b border-gray-700/50 text-gray-300 py-10 px-4">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         {/* Left: Text */}
         <div className="text-sm text-center md:text-left">
